@@ -1,4 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\users\louai\desktop\github\guess-number\guess number\debug\guess number.exe' is denied.
-  Guess Number.cpp
-C:\Users\Louai\Desktop\Github\Guess-Number\Guess Number\Guess Number\Guess Number.cpp(16,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-LINK : fatal error LNK1104: cannot open file 'C:\Users\Louai\Desktop\Github\Guess-Number\Guess Number\Debug\Guess Number.exe'

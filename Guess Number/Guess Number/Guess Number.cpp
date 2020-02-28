@@ -7,7 +7,7 @@ bool isRight = true;
 
 int main()
 {
-	
+
 	int secretNumber = rand() % 21;
 	int playerNumber;
 	int numberTries = 0;
@@ -17,13 +17,13 @@ int main()
 		secretNumber = rand() % 21;
 		cin >> playerNumber;
 		numberTries++;
-		
+
 		if (playerNumber == secretNumber) {
 			cout << "You win! Good job ;) \n You got it right in " << numberTries << " guesses" << endl;
 			isRight = true;
 		}
 
-		else if(playerNumber > 20 || playerNumber < 0){
+		else if (playerNumber > 20 || playerNumber < 0) {
 			cout << "Please enter a valid response: " << endl;
 			isRight = false;
 		}
@@ -33,9 +33,9 @@ int main()
 			isRight = false;
 		}
 
-		
+
 	} while (isRight == false);
-	
+
 	return 0;
 }
 
