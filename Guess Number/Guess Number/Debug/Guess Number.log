@@ -1,0 +1,3 @@
+﻿  Guess Number.cpp
+C:\Users\Louai\Desktop\Github\Guess-Number\Guess Number\Guess Number\Guess Number.cpp(16,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Guess Number.vcxproj -> C:\Users\Louai\Desktop\Github\Guess-Number\Guess Number\Debug\Guess Number.exe

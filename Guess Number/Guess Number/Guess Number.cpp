@@ -12,9 +12,9 @@ int main()
 	int playerNumber;
 	int numberTries = 0;
 	cout << "Welcome to the number guessing game! \nThe rules are simple: Guess an unknown number between 0 and 20 \nTake your best guess!" << endl;
+	srand(time(nullptr));
+	secretNumber = rand() % 21;
 	do {
-		srand(time(nullptr));
-		secretNumber = rand() % 21;
 		cin >> playerNumber;
 		numberTries++;
 
@@ -29,7 +29,16 @@ int main()
 		}
 
 		else if (playerNumber != secretNumber) {
-			cout << "You kinda sorta didn't guess right but you can try again:" << endl;
+			cout << "You didn't guess right but you can try again" << endl;
+			
+			if (playerNumber < secretNumber) {
+				cout << "Your guess is a little too low" << endl;
+			}
+
+			if (playerNumber > secretNumber) {
+				cout << "Your guess is a little too high" << endl;
+			}
+
 			isRight = false;
 		}
 
